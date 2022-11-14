@@ -34,7 +34,8 @@ export const MenuLink = styled(Link)`
   cursor: pointer;
   text-decoration: none;
   color: ${({ theme }) => theme.colors.linkColor};
-  transition: all 0.3s ease-in;
+  transition: all 0.5s ease-in-out;
+
   &:hover {
     color: ${({ theme }) => theme.colors.mainColor};
     font-weight: bold;

@@ -8,5 +8,9 @@ export const GlobalStyles = createGlobalStyle`
         font-family: Georgia, 'Times New Roman', Times, serif;
 
     }
+    body{
+        font-size:1.7rem ;
+        background-color:${({ theme }) => theme.colors.mainColor}
+    }
  
 `;
